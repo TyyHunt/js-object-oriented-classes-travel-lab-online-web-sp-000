@@ -1,8 +1,11 @@
 class Driver {
-  constructor(name, startDate) {
+  constructor(name, date) {
     this.name = name
-    this.startDate = startDate
+    this.date = date
   };
 
+  startDate() {
+    this.date.slice(' ')[0]
+  }
 
 }
