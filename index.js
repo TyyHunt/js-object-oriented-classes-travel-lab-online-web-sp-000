@@ -5,6 +5,6 @@ class Driver {
   };
 
   startDate() {
-    this.startDate = new Date(startDate.slice(' ')[0], day, year)
+    let dateObject = Date(this.startDate.slice(' ')[0], this.startDate.slice(' ')[1], this.startDate.slice(' ')[2])
   }
 }
