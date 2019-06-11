@@ -5,7 +5,7 @@ class Driver {
   };
 
   startDate() {
-    this.date.slice(' ')[0]
+    let month = this.date.slice(' ')[0]
   }
 
 }
