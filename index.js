@@ -5,6 +5,6 @@ class Driver {
   };
 
   startDate() {
-    this.startDate = new Date()
+    this.startDate = new Date(month, day, year)
   }
 }
