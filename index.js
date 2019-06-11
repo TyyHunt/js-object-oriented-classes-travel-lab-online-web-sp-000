@@ -4,5 +4,5 @@ class Driver {
     this.day = day
   };
 
-  
+
 }
