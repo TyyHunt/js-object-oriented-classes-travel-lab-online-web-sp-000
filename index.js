@@ -9,4 +9,10 @@ class Driver {
     return experience
   };
 
+};
+
+class Route {
+  constructor(beginningLocation, endingLocation) {
+
+  };
 }
