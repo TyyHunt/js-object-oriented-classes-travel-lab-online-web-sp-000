@@ -6,6 +6,8 @@ class Driver {
 
   startDate() {
     let month = this.date.slice(' ')[0]
+
+    return `${month}`
   }
 
 }
