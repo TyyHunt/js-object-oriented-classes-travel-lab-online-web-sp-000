@@ -42,7 +42,7 @@ class Route {
     let offHours = this.blocksTravelled() / 3
 
     if (peak) {
-      return peakHourse
+      return peakHours
     } else {
       return offHours
     };
